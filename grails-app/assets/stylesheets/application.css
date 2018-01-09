@@ -1,0 +1,31 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap
+*= require grails
+*= require main
+*= require mobile
+*= require_self
+*/
+
+.errorBorder {
+	background: #fff3f3;
+    border-color: #ffaaaa;
+    color: #cc0000;
+}
+
+.tooltip-inner {
+    white-space: pre-wrap;
+}
+
+.margin-top-bottom {
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+

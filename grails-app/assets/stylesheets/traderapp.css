@@ -1,0 +1,181 @@
+.floatLeft{
+	float: left;
+}
+.alignLeft{
+	text-align: left;
+}
+.alignCenter{
+	text-align: center;
+}	
+.middle-box{
+	max-width: 800px !Important;
+}
+.gray-bg{
+	background-color: #2f4050;
+  	background-image: url('/assets/header-profile.png');
+}
+.errorBorder {
+	background: #fff3f3;
+    border-color: #ffaaaa;
+    color: #cc0000;
+}
+.tooltip-inner {
+    white-space: pre-wrap;
+}
+.margin-top-bottom {
+    margin-bottom: 7%;
+}
+.form-group.required .control-label:after { 
+   content:"*";
+   color:red;
+}
+.ui-menu {
+	list-style:none;
+}
+.ui-menu .ui-menu {
+	
+}
+.ui-menu-item{
+	text-decoration:none;
+	line-height:2;
+	zoom:1;
+	background-color: #ececec;
+}
+.ui-autocomplete {
+	max-height: 400px;
+	min-height: auto;
+	max-width: 700px;
+	min-width: 237px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-right: 0;
+	padding-left: 0;
+	position: absolute;
+	z-index: 9999 !important;
+	background-color: #ffffff;
+	text-align: left;
+}
+.pictureDiv{
+	background-color: white;
+    width: 100px;
+    height: 100px;
+    margin-left: 21%;
+    background-size: cover;
+	background-position: center;
+	position: relative;
+	display: block;
+}
+.profilePic{
+	width: 100px;
+    height: 100px;
+    border: 1px solid #a2a2a2;
+    background-size: cover;
+	background-position: center;
+}
+.logo_li{
+	padding-left: 4%;
+	padding-top: 7%;
+}
+.profile-font-color{
+	color:#bfc6cc;
+}
+.avatar {
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 100%;
+}
+.gray{
+	background-color: gray;
+}
+.page-wrapper{
+	min-height: 550px;
+}
+.changePic {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, .7);
+    color: #000;
+    border: 1px solid #fff;
+    visibility: hidden;
+}
+.pictureDiv:hover .changePic { visibility: visible; }
+.cropper-container{
+	left:0px !Important;
+}
+
+	
+.step {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.nextLink {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.prevLink {
+    padding: 10px;
+    color: black;        
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.currentStep {
+    padding: 10px;
+    background-color: #50b495;
+    color: white;
+    border: 1px solid #50b495;
+}
+
+.step.gap {
+    display: none;
+}
+
+.step:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.headerSort{
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.headerSort:after {
+	content: "\f0dc"; 
+	font-family: FontAwesome;
+	margin-left: 5px;
+}
+
+.table-responsive{
+	overflow-y:hidden;
+}
+
+@media screen and (max-width: 767px){
+	.table-responsive>.table>tbody>tr>td, 
+	.table-responsive>.table>tbody>tr>th, 
+	.table-responsive>.table>tfoot>tr>td, 
+	.table-responsive>.table>tfoot>tr>th, 
+	.table-responsive>.table>thead>tr>td, 
+	.table-responsive>.table>thead>tr>th {
+		white-space: normal !Important;
+	}	
+}
+
+@media screen and (min-width: 767px){
+	#buttonDiv {
+		padding-right: 4%;
+	}
+}
